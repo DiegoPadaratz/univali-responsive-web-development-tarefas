@@ -1,0 +1,51 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 800px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: #e5e5e5;
+    border: 3px solid #444;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p, li {
+    font-size: 22px; /* Reduzi levemente para caber melhor no papel A4 fictício */
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.data {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.assinatura {
+    text-align: right;
+    margin-top: 60px;
+    line-height: 1.2;
+}
+
+.assinatura p {
+    text-align: right;
+    font-size: 20px;
+}
